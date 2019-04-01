@@ -126,6 +126,8 @@ public class StoreOrders {
             System.out.println("8 add a product to a customer");
             System.out.println("9 remove a product from a customer");
             System.out.println("0 exit");
+            b=in.nextInt();
+            in.nextLine();
         }
         while(b!=0);
        
